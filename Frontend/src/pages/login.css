@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+
+.whole {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-image: url(../public/4ds.jpg); */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  /* background-color: slateblue; */
+
+  width: auto;
+  height: auto;
+  margin: 8%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 40px;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.submit-btn {
+  display: flex; /* Use flexbox to control the alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically, useful if the container has a specific height */
+  height: 5vh; /* Optional: Full viewport height if needed */
+  text-align: center; /* Center text inside the container */
+}
+
+.submit {
+  width: 200px; /* Increase the button width */
+  padding: 10px 20px; /* Adjust padding for better spacing */
+  font-size: 16px; /* Increase the font size for better readability */
+  color: white; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Round the corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  text-align: center; /* Center text inside the button */
+  background-color: rgb(87, 20, 52);
+}
+
+.submit-btn .submit:hover {
+  background-color: rgb(185, 80, 115); /* Change to muted orange on hover */
+}
+
+/* Active state (when the button is clicked) */
+.submit-btn .submit:active {
+  background-color: #320d02; /* Darker shade of orange */
+  transform: scale(0.98); /* Slightly scale down to give a pressed effect */
+}
+
+.register {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  margin-top: 25px;
+  font-weight: bold;
+}

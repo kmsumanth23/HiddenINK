@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.bodymainproifle{
+  
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  /* padding: 50px; */
+  text-align: center;
+  height: 2em;
+  width:  2em;
+  
+  
+}
+.containerprofile{
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  transition-timing-function: cubic-bezier(0.5, 0.5, 0.8, 1);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #7b00e0, #ae31d9);
+}
+.containerprofile:hover{
+  height: 390px;
+  width: 270px;
+  margin-left: 30%;
+  
+  border-radius: 5px;
+  box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+  transform: translateX(-230px); /* Adjust this value based on the containerprofile width */
+
+}
+.containerprofile .wrapperprofile .imgprof{
+  position: relative;
+  z-index: 20;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  width: 40px;
+  /* object-fit: cover; */
+  margin: 0px auto;
+  transition: all 0.3s ease;
+  transition-timing-function: cubic-bezier(0.5, 0.5, 0.8, 1);
+  object-fit: cover; 
+
+}
+.containerprofile:hover .imgprof{
+  border: 5px solid #fff;
+
+  margin: 20px auto;
+  height: 100px;
+  width: 100px;
+  
+}
+.containerprofile:hover .wrapperprofile .imgprof.active{
+  height: 350px;
+  width: 270px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+}
+.wrapperprofile .titleprof{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 25px;
+}
+.wrapperprofile .placeprof{
+  color: #fff;
+  font-size: 17px;
+  line-height: 0px;
+  margin: 10px 0;
+}
+.contentprof{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 1px 20px 10px 20px!important;
+}
+.contentprof .buttonsprof{
+  display: flex;
+}
+.buttonsprof .btnprof{
+  height: 40px;
+  width: 150px;
+  margin: auto;
+}
+.buttonsprof .btnprof .buttonz{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.btnprof .buttonz:hover{
+  transform: scale(0.95);
+}

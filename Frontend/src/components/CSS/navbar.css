@@ -1,0 +1,43 @@
+
+.navbar_scrolled {
+  background-color: #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37),
+    0 6px 20px 0 rgba(10, 9, 10, 0.295);
+  /* opacity: 0.4; */
+}
+
+.profile_icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 3vh;
+  margin-left: 2vh;
+  margin-top: 0.4vh;
+}
+
+
+.dis {
+  height: 8vh;
+  /* width: 8vh; */
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.signin_btn {
+  margin-right: 3vh;
+  margin-left: 2vh;
+  margin-top: 0.4vh;
+  /* background-color: rgb(181, 121, 237);
+  border-color: blue; */
+}
+
+/* .signin_btn  .signin_btn:active{
+    background-color: blueviolet;
+} */
+
+.disNone {
+  display: none;
+}
+.dispBlock {
+  display: block;
+}
