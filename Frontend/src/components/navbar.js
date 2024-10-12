@@ -30,7 +30,7 @@ function Navbar(props) {
       >
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            STEGO-FROG
+            HiddenINK
           </NavLink>
           <button
             className="navbar-toggler"
