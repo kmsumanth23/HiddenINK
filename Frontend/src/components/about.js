@@ -15,7 +15,7 @@ export default function About() {
   }
 
   const documentation=()=>{
-    window.open("https://github.com/Amessaa/Stegno", '_blank').focus();
+    window.open("https://github.com/kmsumanth23/HiddenINK", '_blank').focus();
   }
 
 
